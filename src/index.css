@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --gold-50: #FFFBEB;
-  --gold-100: #FEF3C7;
-  --gold-200: #FDE68A;
-  --gold-300: #FCD34D;
-  --gold-400: #FBBF24;
-  --gold-500: #D4AF37;
-  --gold-600: #B8860B;
-  --gold-700: #996E00;
-  --gold-800: #7A5800;
-  --gold-900: #5C4300;
+  --gold-50: #FAF6E9;
+  --gold-100: #F0E8C8;
+  --gold-200: #E5D5A0;
+  --gold-300: #D4BC6F;
+  --gold-400: #C4A84A;
+  --gold-500: #A68B3C;
+  --gold-600: #8B7330;
+  --gold-700: #705B26;
+  --gold-800: #56441D;
+  --gold-900: #3D3014;
 }
 
 html {
@@ -26,11 +26,11 @@ body {
 }
 
 .gold-gradient {
-  background: linear-gradient(135deg, #D4AF37 0%, #FFD700 50%, #B8860B 100%);
+  background: linear-gradient(135deg, #9A7B3D 0%, #B8954F 25%, #8B6914 50%, #A67C2E 75%, #7A5A1C 100%);
 }
 
 .gold-gradient-text {
-  background: linear-gradient(135deg, #D4AF37 0%, #FFD700 50%, #B8860B 100%);
+  background: linear-gradient(135deg, #8B6914 0%, #A67C2E 25%, #9A7B3D 50%, #B8954F 75%, #7A5A1C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -39,20 +39,20 @@ body {
 .gold-border {
   border: 2px solid transparent;
   background: linear-gradient(white, white) padding-box,
-              linear-gradient(135deg, #D4AF37, #FFD700, #B8860B) border-box;
+              linear-gradient(135deg, #8B6914, #A67C2E, #9A7B3D) border-box;
 }
 
 .hero-pattern {
   background-image: 
-    radial-gradient(circle at 20% 80%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
+    radial-gradient(circle at 20% 80%, rgba(154, 123, 61, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(138, 105, 20, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(166, 124, 46, 0.04) 0%, transparent 40%);
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(154, 123, 61, 0.15);
 }
 
 .nav-link {
@@ -66,7 +66,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #D4AF37, #FFD700);
+  background: linear-gradient(90deg, #8B6914, #A67C2E);
   transition: width 0.3s ease;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .stat-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(212, 175, 55, 0.15);
+  box-shadow: 0 20px 40px rgba(154, 123, 61, 0.12);
 }
 
 .project-card {
@@ -121,12 +121,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #D4AF37, #B8860B);
+  background: linear-gradient(180deg, #8B6914, #705B26);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #B8860B, #D4AF37);
+  background: linear-gradient(180deg, #705B26, #8B6914);
 }
 
 .animate-float {
